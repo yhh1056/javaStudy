@@ -7,15 +7,15 @@ package singletonPractice;
  * Create by {2020/06/28}
  */
 public class Card {
-    public static int number = 10000;
-    private int cardNumber;
+   public static int serialNumber = 10000;
+   private int cardNumber;
 
-    public Card() {
-        number++;
-        this.cardNumber = number;
-    }
+   public void createCardNumber() {
+       serialNumber++;
+       cardNumber = serialNumber;
+   }
 
-    public int getCardNumber() {
-        return this.cardNumber;
-    }
+   public void showCardNumber() {
+       System.out.println(this.cardNumber);
+   }
 }
