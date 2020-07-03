@@ -31,6 +31,16 @@ public class Player {
         String b = "초보자";
         String w = "전사";
         String m = "법사";
+//        switch (character) {
+////            case ("초보자"):
+////                return new Beginner();
+////            case ("법사"):
+////                return new Wizard();
+////            case ("전사"):
+////                return new Warrior();
+////            default:
+////                throw new JobNotFoundException();
+//        }
 
         if (character.equals(b)) {
             Beginner beginner = new Beginner();
