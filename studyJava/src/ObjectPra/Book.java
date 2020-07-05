@@ -6,7 +6,7 @@ package ObjectPra;
  * author {yhh1056}
  * Create by {2020/07/03}
  */
-public class Book {
+public class Book implements Cloneable{
     int number;
     String name;
     String author;
@@ -31,5 +31,10 @@ public class Book {
     @Override
     public int hashCode() {
         return number;
+    }
+
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

@@ -1,7 +1,8 @@
 package ObjectPra;
 
 public class Test {
-    public static void main(String[] args) {
+
+    public static void main(String[] args) throws CloneNotSupportedException {
         Book harryPotter = new Book(100,"해리포터","롤링");
         System.out.println(harryPotter);
 //      toString 재정의 전 출력값 : ObjectPra.Book@5b2133b1
@@ -19,5 +20,7 @@ public class Test {
 
         System.out.println(System.identityHashCode(harryPotter));     //실제 해시코드를 보는 방
 
+        Book cloneHarryPotter = (Book) harryPotter.clone();
+        System.out.println(cloneHarryPotter);
     }
 }
