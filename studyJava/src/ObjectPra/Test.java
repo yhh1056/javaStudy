@@ -1,4 +1,4 @@
-package ObjectPra;
+package objectPra;
 
 public class Test {
 

@@ -1,4 +1,4 @@
-package ObjectPra;
+package objectPra;
 
 /**
  * 오브젝트 재정의 하기
