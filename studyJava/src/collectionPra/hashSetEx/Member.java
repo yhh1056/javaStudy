@@ -1,4 +1,4 @@
-package collectionPra.setEx;
+package collectionPra.hashSetEx;
 
 /**
  * author {yhh1056}
