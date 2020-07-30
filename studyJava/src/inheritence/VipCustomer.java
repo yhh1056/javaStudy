@@ -7,20 +7,19 @@ package inheritence;
  * Create by {2020/06/30}
  */
 public class VipCustomer extends Customer {
-    int bonusPoint;
 
     public VipCustomer(String name, int money) {
         super(name, money);
     }
+
+    public void enterVip() {
+        System.out.println("====vip 입장=====");
+    }
     @Override
     public void buyProduct(int price) {
-        bonusPoint += 2000;
+        super.bonusPoint += 2000;
         this.money -= price;
         System.out.println(name + " 회원님 " + bonusPoint + " 원이 적립됐습니다.");
         System.out.println("남은 금액은 " + money + "원 입니다.");
-    }
-    @Override
-    public void checkBonusPoint() {
-        System.out.println(this.bonusPoint);
     }
 }

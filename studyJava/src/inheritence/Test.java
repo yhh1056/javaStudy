@@ -11,18 +11,17 @@ public class Test {
     public static void main(String[] args) {
         Customer yhh1004 = new Customer("현호", 50000);
         yhh1004.buyProduct(2000);
-        yhh1004.buyProduct(40000);
 
         yhh1004.checkBonusPoint();
 
-        System.out.println("====vip 입장=====");
-        VipCustomer asdf = new VipCustomer("호갱님", 100000);
-        asdf.buyProduct(100000);
-        asdf.checkBonusPoint();
-        System.out.println("======");
+        VipCustomer vipCustomer = new VipCustomer("김부자", 100000);
+        vipCustomer.enterVip();
+        vipCustomer.buyProduct(100000);
+        vipCustomer.checkBonusPoint();
 
-        Customer asdff = new VipCustomer("tester", 40000);
-        asdff.buyProduct(2000);
-        asdff.checkBonusPoint();
+        Customer vipCustomer2 = new VipCustomer("박부자", 40000);
+//        vipCustomer2.enterVip();
+        vipCustomer2.buyProduct(2000);
+        vipCustomer2.checkBonusPoint();
     }
 }
