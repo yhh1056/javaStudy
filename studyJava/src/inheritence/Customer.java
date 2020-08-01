@@ -8,8 +8,8 @@ package inheritence;
  */
 public class Customer {
     protected String name;
-    protected int bonusPoint;
     protected int money;
+    protected int bonusPoint;
 
     public Customer(String name, int money) {
         this.name = name;
@@ -17,7 +17,7 @@ public class Customer {
     }
 
     public void buyProduct(int price) {
-        bonusPoint += 1000;
+        this.bonusPoint += 1000;
         this.money -= price;
         System.out.println(name + " 회원님 " + bonusPoint +"원이 적립됐습니다.");
         System.out.println("남은 금액은 " + money + "원 입니다.");

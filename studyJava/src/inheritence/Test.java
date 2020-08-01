@@ -20,8 +20,8 @@ public class Test {
         vipCustomer.checkBonusPoint();
 
         Customer vipCustomer2 = new VipCustomer("박부자", 40000);
-//        vipCustomer2.enterVip();
-        vipCustomer2.buyProduct(2000);
+        ((VipCustomer) vipCustomer2).enterVip();
+        vipCustomer2.buyProduct(25000);
         vipCustomer2.checkBonusPoint();
     }
 }

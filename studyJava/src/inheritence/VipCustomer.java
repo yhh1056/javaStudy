@@ -7,6 +7,9 @@ package inheritence;
  * Create by {2020/06/30}
  */
 public class VipCustomer extends Customer {
+    static  {
+        System.out.println("JUit BeforEach가 이런 원리구나");
+    }
 
     public VipCustomer(String name, int money) {
         super(name, money);
