@@ -6,6 +6,8 @@ package abstractPra;
  * author {yhh1056}
  * Create by {2020/07/01}
  */
-public abstract class Cafe {
-    public abstract void makeCoffee();
+public class Customer {
+    public void oderCoffee(Cafe cafe) {
+        cafe.makeCoffee();
+    }
 }
