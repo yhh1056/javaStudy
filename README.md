@@ -41,10 +41,10 @@
 ---
 ### 객체지향 4대 특성
 
-- [객체 지향 4대 특성 노션 페이지]([https://www.notion.so/4-f364b72c0f2e49e8b37b4dc401298a9c](https://www.notion.so/4-f364b72c0f2e49e8b37b4dc401298a9c))
+- 객체 지향 4대 특성 : [클릭](https://www.notion.so/4-f364b72c0f2e49e8b37b4dc401298a9c)
 
 ---
 
 ### 객체 지향 설계 5원칙 SOLID
 
-- [객체 지향 설계 5원칙 노션 페이지]([https://www.notion.so/5-SOLID-4c7c861d9c6d4a678912e4bcc86f3f0e](https://www.notion.so/5-SOLID-4c7c861d9c6d4a678912e4bcc86f3f0e))
+- 객체 지향 설계 5원칙 : [클릭](https://www.notion.so/5-SOLID-4c7c861d9c6d4a678912e4bcc86f3f0e)
