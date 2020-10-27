@@ -1,8 +1,8 @@
 package abstractPra;
 
 /**
- * 클레스 설명
- * <p>
+ * 추상화
+ *
  * author {yhh1056}
  * Create by {2020/07/01}
  */

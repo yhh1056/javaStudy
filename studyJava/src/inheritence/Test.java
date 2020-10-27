@@ -1,8 +1,8 @@
 package inheritence;
 
 /**
- * 클레스 설명
- * <p>
+ * 상속
+ *
  * author {yhh1056}
  * Create by {2020/06/30}
  */

@@ -1,8 +1,6 @@
 package arrayPra;
 
 /**
- * 클레스 설명
- * <p>
  * author {yhh1056}
  * Create by {2020/06/28}
  */

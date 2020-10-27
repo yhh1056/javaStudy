@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 클레스 설명
- * <p>
+ * 얇은 복사와 깊은 복사
  * author {yhh1056}
  * Create by {2020/06/28}
  */

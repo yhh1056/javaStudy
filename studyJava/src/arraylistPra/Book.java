@@ -3,8 +3,8 @@ package arraylistPra;
 import java.util.*;
 
 /**
- * 클레스 설명
- * <p>
+ * 배열
+ *
  * author {yhh1056}
  * Create by {2020/06/29}
  */
