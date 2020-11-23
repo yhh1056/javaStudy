@@ -1,4 +1,4 @@
-package inheritence;
+package inheritence.example1;
 
 /**
  * 클레스 설명

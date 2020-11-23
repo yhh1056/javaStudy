@@ -1,4 +1,4 @@
-package inheritence;
+package inheritence.example1;
 
 /**
  * 상속
