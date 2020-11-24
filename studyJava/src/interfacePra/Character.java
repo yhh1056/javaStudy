@@ -6,7 +6,7 @@ package interfacePra;
  * author {yhh1056}
  * Create by {2020/07/02}
  */
-public interface Game {
+public interface Character {
     void attack();
-    void run();
+    void move();
 }
