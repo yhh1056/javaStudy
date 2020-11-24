@@ -8,59 +8,39 @@ import java.util.Scanner;
  * author {yhh1056}
  * Create by {2020/07/02}
  */
-public class Player {
-    private static final String GAME_START = "게임 시작";
-    private static final String GAME_END = "게임 종료";
+public class Player implements GameSystem {
+    private Character player;
 
-    public Beginner beginner;
-    private Wizard wizard;
-    private Warrior warrior;
-
-    public static void login() {
-        System.out.println(GAME_START);
+    @Override
+    public void login() {
+        System.out.println(GameSystem.LOGIN_MESSAGE);
     }
 
-    public static void logOut() {
-        System.out.println(GAME_END);
+    @Override
+    public void logOut() {
+        System.out.println(GameSystem.LOGOUT_MESSAGE);
     }
 
-    public Game choiceCharacter() {
-        System.out.println("캐릭터를 선택해주세요. 초보자, 전사, 법사만 입력 가능");
-        Scanner scanner = new Scanner(System.in);
-        String character = scanner.nextLine();
-        String b = "초보자";
-        String w = "전사";
-        String m = "법사";
-//        switch (character) {
-////            case ("초보자"):
-////                return new Beginner();
-////            case ("법사"):
-////                return new Wizard();
-////            case ("전사"):
-////                return new Warrior();
-////            default:
-////                throw new JobNotFoundException();
-//        }
+    public void choiceCharacter() {
+        System.out.println(GameSystem.START);
+        String character = getJob();
 
-        if (character.equals(b)) {
-            Beginner beginner = new Beginner();
-            this.beginner = beginner;
-            return beginner;
-        } else if (character.equals(w)) {
-            Warrior warrior = new Warrior();
-            this.warrior = warrior;
-            return warrior;
-        } else if (character.equals(m)) {
-            Wizard wizard = new Wizard();
-            this.wizard = wizard;
-            return wizard;
+        switch (character) {
+            case (BEGINNER) -> player = new Beginner();
+            case (WIZARD) -> player = new Wizard();
+            case (WARRIOR) -> player = new Warrior();
         }
-        return null;
+
     }
 
+    @Override
     public void playing() {
-        Game player = choiceCharacter();
         player.attack();
-        player.run();
+        player.move();
+    }
+
+    private String getJob() {
+        Scanner scanner = new Scanner(System.in);
+        return scanner.nextLine();
     }
 }
