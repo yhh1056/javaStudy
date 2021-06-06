@@ -48,3 +48,9 @@
 ### 객체 지향 설계 5원칙 SOLID
 
 - 객체 지향 설계 5원칙 : [클릭](https://www.notion.so/5-SOLID-4c7c861d9c6d4a678912e4bcc86f3f0e)
+
+### 백기선의 자바 스터디
+
+[https://github.com/whiteship/live-study](https://github.com/whiteship/live-study)
+
+- 미션 정리 글 : [클릭](https://www.notion.so/aeno/d5488a2716b341ddbefdd2f8c1d3bee5?v=bcca2db39dfc4d74a603c76772e45313)
